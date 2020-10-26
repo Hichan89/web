@@ -1,0 +1,212 @@
+:root {
+  /* color */
+  --color-white: #ffffff;
+
+  --color-light-white: #eeeeee;
+
+  --color-dark-white: #bdbdbd;
+
+  --color-red: #ff0000;
+
+  --color-grey-light: #e5e5e5;
+
+  --color-grey-dark: #333333;
+
+  /* Font size */
+
+  --font-large: 48px;
+
+  --font-medium: 28px;
+
+  --font-regular: 16px;
+
+  --font-micro: 14px;
+
+  /* Font weight */
+
+  --weight-bold: 700;
+
+  --weight-semi-bold: 600;
+
+  --weight-regular: 400;
+
+  /* size */
+  --border-radius: 4px;
+
+  /* animation duration */
+  /* --animation-duration: 300ms; */
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  margin: 0;
+  font-size: var(--font-regular);
+}
+
+ul {
+  list-style-type: none;
+  padding: 8px;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none !important;
+  color: #333;
+}
+
+:hover {
+  color: var(--color-light-white) 80%;
+}
+
+.icon-made {
+  width: 32px;
+  height: 32px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: var(--weight-semi-bold);
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: var(--weight-regular);
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  background-color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.login-line {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+}
+
+.login-line li {
+  padding: 4px 8px;
+}
+
+.sign {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0;
+}
+
+header {
+  /* background-color: powderblue; */
+  width: 100%;
+  height: 160px;
+}
+
+#uniqlo-icon {
+  width: 64px;
+  height: 64px;
+}
+
+/* navigation */
+
+nav {
+  background-color: #ffebee;
+  display: flex;
+}
+
+.nav--icon__hamburger {
+  width: 32px;
+}
+
+.nav--menulist {
+  justify-content: flex-start;
+}
+
+.search-button {
+  width: 32px;
+  background: transparent;
+  background-size: 100%;
+  background-position: center;
+}
+
+/* slides */
+
+#slides {
+  height: 320px;
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(/pics-assets/jwanderson/PC_20FW_JWA_201013_TPU_bottom_cover.jpg);
+  background-repeat: no-repeat;
+}
+
+.btn-image {
+  width: 32px;
+  height: 32px;
+}
+
+#slide-btn {
+}
+
+.card-thumbnail {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+
+#best {
+  background-color: antiquewhite;
+}
+
+.nav-best {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.thumbnail-best {
+  background-image: url(/pics-assets/women/res3f92591e9b3b9558f0ea483d6429d1c9fr.jpg);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.describe {
+  display: block;
+  background-color: white;
+}
+
+.car #magazine {
+  background-color: #e1bee7;
+}
+
+#collaboration {
+  background-color: #dcedc8;
+}
+
+#news {
+  background-color: burlywood;
+}
+
+#footer {
+  padding: 100px 120px;
+  text-align: center;
+  background-color: #b0bec5;
+}
